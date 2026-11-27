@@ -1,0 +1,8 @@
+{
+  "name": "release-dependency",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": { "analyze": "node cli.mjs", "serve": "node server.mjs", "test": "node --test" }
+}
